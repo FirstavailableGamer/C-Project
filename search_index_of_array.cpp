@@ -42,8 +42,8 @@ int getUserinput(){
 
     std :: cout << "Enter Element To search for : ";
     std :: cin >> myNum;
-    std ::cin.clear();
-    fflush(stdin);
+    //std ::cin.clear();
+    //fflush(stdin);
 
     return myNum;
 }
